@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: check out repository
+      - name: Check out repository
         uses: actions/checkout@v2
-      - name: deploy app
+      - name: Deploy app
         uses: citizen-of-planet-earth/cf-cli-action@master
         with:
           cf_api: https://api.cf.datev.cloud
