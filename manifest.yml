@@ -1,0 +1,7 @@
+---
+applications:
+- name: python-helloworld
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: true
+  command: python3 main.py
