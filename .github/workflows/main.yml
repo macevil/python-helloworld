@@ -18,5 +18,6 @@ jobs:
           cf_api: https://api.cf.datev.cloud
           cf_username: ${{ secrets.CF_USER }}
           cf_password: ${{ secrets.CF_PASSWORD }}
-          cf_space: Development
-          command: push -f manifest-dev.yml
+          cf_org: helloworld
+          cf_space: github
+          command: push -f manifest.yml
