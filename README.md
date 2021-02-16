@@ -1,3 +1,3 @@
 # python-helloworld
 
-Simple python hello world sample with cf deployment.
+Simple Python helloworld sample with Github Actions workflow cf deployment.
