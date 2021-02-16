@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - uses: citizen-of-planet-earth/cf-cli-action@master
+    - uses: citizen-of-planet-earth/cf-cli-action@master
       with:
         cf_api: https://api.cf.datev.cloud
         cf_username: ${{ secrets.CF_USER }}
