@@ -1,12 +1,8 @@
-name: testBuild
+name: testBuildDeployToCF
 
 on:
   push:
-    branches:
-      - development
-  pull_request:
-    branches:
-      - development
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
